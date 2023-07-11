@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* body {
+    background-color: rgba(32, 178, 178, 0.956);
+    color: white;
+} */
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(116, 16, 230, 0.124);
+
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-pic {
+    height: 500px;
+
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.banner-description {
+    font-size: 20px;
+}
+
+.btn-primary {
+    padding: 10px;
+
+    border-radius: 5px;
+    background-color: deeppink;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* .featured-section-container {
+    margin:
+} */
+
+.featured-section {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+
+}
+
+.featured-pic {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 100px;
+}
+
+.featured-pic1 {
+    height: 450px;
+    width: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(116, 16, 230, 0.124);
+    background-size: 100% 100%;
+}
+
+.featured-pic2 {
+    height: 450px;
+    width: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(116, 16, 230, 0.124);
+    background-size: 100% 100%;
+
+
+}
+
+.featured-pic3 {
+    height: 450px;
+    width: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(116, 16, 230, 0.124);
+    background-size: 100% 100%;
+}
+
+.featured-image {
+    height: 400px;
+    width: 350px;
+    padding: 50px 50px 0px 50px;
+
+
+}
+
+.flower-name {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 80px;
+    background-color: rgb(100, 247, 176);
+}
+
+.section-pic {
+    height: 150px;
+    width: 150px;
+}
+
+.section-content {
+    max-width: 500px;
+}
+
+.section-content,
+.section-pic {
+    margin: 50px 200px;
+}
+
+
+.insta-section {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.insta-title {
+    font-size: 45px;
+
+}
+
+.insta-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.insta-photo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.insta-image {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.background-container {
+    background-image: url("Flower Asset/Rectangle 9.png");
+    height: 300px;
+    margin: 50px 80px;
+    background-size: 100% 100%;
+}
+
+.background-item {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.background-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+.testimonial-title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.testimonial-description {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px;
+}
+
+.testimonial-pic {
+    height: 150px;
+    width: 150px;
+    margin-left: 25%;
+    border-radius: 50%;
+
+}
+
+.testimonial-content {
+    text-align: center;
+
+}
+
+.testimonial-box {
+    box-shadow: 4px 8px 16px gray;
+    width: 300px;
+    padding: 20px;
+}
+
+
+.footer-container {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
